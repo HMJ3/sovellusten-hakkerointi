@@ -39,7 +39,7 @@ Linkki podcastiin: https://www.arter.fi/podcast/laatulopinat-podcast-tietoturval
 
 ## d) Riskienhallintasuunnitelma - Kali Linux virtuaalikoneelle, Windows järjestelmässä
 
-| Osa-alue                          | Tehtäväkuvaus                             | Riskin hallinta   |
+| Osa-alue                          | Kuvaus                             | Riskinhallinta   |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | **Ympäristön kuvaus** | Kali Linux asennettu VMware Workstation virtuaalikoneeseen joka toimii Windows isäntäkoneella. Käytetään haittaohjelmien tutkimiseen ja testaamiseen      | Määritellään ympäristö ja sen rajat selkeästi. |
 | **Virtuaalikoneen eristäminen** | - Verkkoyhteys rajoitettu esim. “Host-only” tai “NAT” -tilaan, ei suoraa julkista yhteyttä<br>- Ei tiedostonjakoa isännän ja VM:n välillä<br>- Ei yhteistä leikepöytää | Estää haittaohjelmien pääsyn isäntäkoneeseen tai verkkoon |
