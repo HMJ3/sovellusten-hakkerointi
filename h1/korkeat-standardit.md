@@ -37,9 +37,15 @@ Linkki podcastiin: https://www.arter.fi/podcast/laatulopinat-podcast-tietoturval
 8. **Ohjelmistokehittäjät näkevät omat ohjelmat riskialttiimmaalla tavalla kuin muiden ohjelmat**
    - Omasta ohjelmasta on usein enemmän tietoa ja tällöin on helpompi hahmoittaa riskejä. Lisäksi oma tekeminen voi luoda suurempaa vastuuntuntoa
 
+## d) Riskienhallintasuunnitelma - Kali Linux virtuaalikoneelle, Windows järjestelmässä
 
-
-
+| Osa-alue                          | Tehtäväkuvaus                             | Riskin hallinta   |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| **Ympäristön kuvaus** | Kali Linux asennettu VMware Workstation virtuaalikoneeseen joka toimii Windows isäntäkoneella. Käytetään haittaohjelmien tutkimiseen ja testaamiseen      | Määritellään ympäristö ja sen rajat selkeästi. |
+| **Virtuaalikoneen eristäminen** | - Verkkoyhteys rajoitettu esim. “Host-only” tai “NAT” -tilaan, ei suoraa julkista yhteyttä<br>- Ei tiedostonjakoa isännän ja VM:n välillä<br>- Ei yhteistä leikepöytää | Estää haittaohjelmien pääsyn isäntäkoneeseen tai verkkoon |
+| **Isäntäkoneen suojaus** | - Windowsin virustorjunta ja palomuuri päällä<br>- VMware Workstation päivitetty ja konfiguroitu turvallisesti<br>- Käyttäjäoikeudet rajattu              | Suojaa isäntäkoneen järjestelmän ja datan leviämiseltä |
+| **Haittaohjelmien käsittely** | - Haitalliset tiedostot tutkitaan ainoastaan Kali Linuxissa<br>- Käytetään eristettyjä testausmenetelmiä tai esimerkiksi dockeria | Varmistaa ettei haittaohjelmat pääse leviämään tai vaikuttamaan muuhun ympäristöön |
+| **Palautussuunnitelma** | - Snapshotien avulla voidaan palauttaa virtuaalikone<br>- Tarvittaessa uudelleenasennus | Varmistaa nopean toipumisen testin jälkeen |
 
 
 
