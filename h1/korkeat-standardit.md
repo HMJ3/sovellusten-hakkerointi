@@ -26,15 +26,15 @@ Linkki podcastiin: https://www.arter.fi/podcast/laatulopinat-podcast-tietoturval
 
 1. **Mikään ohjelmisto ei ole täysin tietoturvallinen**
    - Tästä olen samaa mieltä. Tietoturvariski on aina suurin silloin kun järjestelmää käyttää ihminen.
-2. **Hallinnollinen tietoturva on teknisen tietoturvan onnistunut edellytys**
+2. **Hallinnollinen tietoturva on teknisen tietoturvan onnistumisen edellytys**
    - Liittyy vahvasti ISO 2703 standardiin. On otettava huomioon paljon muuta kuin pelkästään tekninen puoli.
-3. **Automaatiotestaus on ohjelmistoturvallisuuden kannalta tärkeää**
+3. **Automaatiotestaus on ohjelmiston tietoturvan kannalta erittäin tärkeää**
    - Nopea ja kattava toteutus joka oikein tehtynä vähentää työtaakkaa. Tekee kuitenkin kaikesta vähän monimutkaisempaa.
-4. **Ohjelmistoa suunniteltaessa voidaan tehdä paljonkin auttamaan käyttäjää toimimaan tietoturvallisesti, useimmiten nämä toimenpiteet aiheuttavat kuitenkin ongelmia**
+4. **Ohjelmistoa suunniteltaessa voidaan tehdä paljonkin auttamaan käyttäjää toimimaan tietoturvallisesti. Usein nämä toimenpiteet kuitenkin vaikuttavat negatiivisesti käytettävyyteen.**
    - Sovelluksen pitää olla käyttäjäystävällinen ja tiedon tulee olla helposti saavutettavissa. Tämä voi tuoda haaseita tietoturvallisuuteen.
-6. **Arkaluontoisen tiedon vaikutus ohjelmistosuunnittelussa**
+5. **Ohjelmiston tietoturvallisuuden suunnitteluun vaikuttaa paljolti se, kuinka arkaluonteisia tietoja ohjelmistolla on tarkoitus käsitellä.**
    - Voi osittain vaikuttaa toteutukseen. Tosin sen ei tulisi saada vaikuttaa liikaa suunnitteluun.
-8. **Ohjelmistokehittäjät näkevät omat ohjelmat riskialttiimmaalla tavalla kuin muiden ohjelmat**
+6. **Ohjelmistokehittäjät näkevät omat ohjelmistonsa aina merkittävästi riskialttiimpina, kuin muiden tekemät ohjelmistot.**
    - Omasta ohjelmasta on usein enemmän tietoa ja tällöin on helpompi hahmoittaa riskejä. Lisäksi oma tekeminen voi luoda suurempaa vastuuntuntoa
 
 ## d) Riskienhallintasuunnitelma - Kali Linux virtuaalikoneelle, Windows järjestelmässä
